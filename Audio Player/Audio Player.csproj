@@ -10,6 +10,7 @@
     <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
   </PropertyGroup>
   <ItemGroup>
+    <None Remove="Resources\drawable\background.png" />
     <None Remove="Resources\drawable\ic_album.xml" />
     <None Remove="Resources\drawable\ic_artist.xml" />
     <None Remove="Resources\drawable\ic_favorite.xml" />
@@ -17,6 +18,20 @@
     <None Remove="Resources\drawable\ic_menu.xml" />
     <None Remove="Resources\drawable\ic_note.xml" />
     <None Remove="Resources\drawable\ic_search.xml" />
+    <None Remove="Resources\drawable\navigation_item_background.xml" />
+    <None Remove="Resources\drawable\searchview_background.xml" />
+    <None Remove="Resources\font\rubik_bold.ttf" />
+    <None Remove="Resources\font\rubik_bold_font.xml" />
+    <None Remove="Resources\font\rubik_bold_italic.ttf" />
+    <None Remove="Resources\font\rubik_italic.ttf" />
+    <None Remove="Resources\font\rubik_light.ttf" />
+    <None Remove="Resources\font\rubik_light_font.xml" />
+    <None Remove="Resources\font\rubik_light_italic.ttf" />
+    <None Remove="Resources\font\rubik_medium.ttf" />
+    <None Remove="Resources\font\rubik_medium_font.xml" />
+    <None Remove="Resources\font\rubik_medium_italic.ttf" />
+    <None Remove="Resources\font\rubik_normal_font.xml" />
+    <None Remove="Resources\font\rubik_regular.ttf" />
     <None Remove="Resources\layout\album_fragment.xml" />
     <None Remove="Resources\layout\artist_fragment.xml" />
     <None Remove="Resources\layout\favourite_fragment - Копировать.xml" />
@@ -25,6 +40,8 @@
     <None Remove="Resources\layout\rec_added_fragment.xml" />
     <None Remove="Resources\menu\main_toolbar_menu.xml" />
     <None Remove="Resources\menu\navigation_menu.xml" />
+    <None Remove="Resources\values\colors.xml" />
+    <None Remove="Resources\values\styles.xml" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.AndroidX.Fragment" Version="1.7.0.2" />

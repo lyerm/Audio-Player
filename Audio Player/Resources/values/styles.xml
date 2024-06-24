@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<resources>
+	<style name="Main.Dark" parent="Theme.AppCompat.NoActionBar">
+		<item name="android:windowBackground">@drawable/background</item>
+		<item name="colorAccent">@android:color/holo_red_light</item>
+		<item name="android:statusBarColor">@android:color/transparent</item>
+		<item name="android:navigationBarColor">@android:color/transparent</item>
+		<item name="android:fontFamily">@font/rubik_normal_font</item>
+		<item name="fontFamily">@font/rubik_normal_font</item>
+	</style>
+</resources> 

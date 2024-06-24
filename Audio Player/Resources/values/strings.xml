@@ -5,4 +5,5 @@
 	<string name="artist_title">Artits</string>
 	<string name="library_title">Library</string>
 	<string name="rec_added_title">Recently added</string>
+	<string name="searchview_query_hint">Поиск..</string>
 </resources>
